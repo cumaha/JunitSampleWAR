@@ -10,7 +10,7 @@ public class App1Test {
 	@Test
 	public void test() {
 		App1 app1 = new App1();
-		assertEquals("Sample2",app1.Sample());
+		assertEquals("Sample",app1.Sample());
 		
 	}
 
