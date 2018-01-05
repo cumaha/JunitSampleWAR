@@ -3,12 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.ag.web</groupId>
-  <artifactId>j2eemavenapp</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <artifactId>ROOT</artifactId>
   <packaging>war</packaging>
 
-  <name>j2eemavenapp</name>
-  <url>http://maven.apache.org</url>
+  <name>ROOT</name>
+  <url>/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,4 +22,5 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <version>0.01</version>
 </project>
