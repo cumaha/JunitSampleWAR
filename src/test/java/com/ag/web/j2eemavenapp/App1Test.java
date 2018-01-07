@@ -10,7 +10,6 @@ public class App1Test {
 		App1 app1 = new App1();
 		assertEquals("Sample",app1.Sample());
 		return app1.Sample();
-		
 	}
 
 }
