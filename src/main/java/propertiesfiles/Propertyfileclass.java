@@ -7,7 +7,6 @@ import java.util.Properties;
 import java.net.InetAddress;
 import org.junit.Test;
 import com.ag.web.j2eemavenapp.App1;
-//import com.ag.web.j2eemavenapp.App1Test;
 
 public class Propertyfileclass {
 	
