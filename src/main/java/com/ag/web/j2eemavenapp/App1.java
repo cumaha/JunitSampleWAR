@@ -7,11 +7,11 @@ import java.util.Properties;
 
 
 public class App1 {
-	public String Sample() {
+	public  String Sample() {
 		return "Sample";
 	}
 	
-	public static String SampleApp() {
+	public String SampleApp() {
 		return "This is APP1.java";
     }
 	
