@@ -3,7 +3,6 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>j2eemavenapp</artifactId>
-  <packaging>war</packaging>
 
   <name>j2eemavenapp</name>
   <url>/</url>
@@ -23,4 +22,5 @@
   </dependencies>
   <groupId>com.ag.web</groupId>
   <version>0.01</version>
+  <packaging>war</packaging>
 </project>
