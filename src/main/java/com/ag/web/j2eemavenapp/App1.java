@@ -21,12 +21,12 @@ public class App1 {
 		InetAddress ips;
 		ips = InetAddress.getLocalHost();
         String hostname = ips.getHostName();
-        hostname = "devl";
+        hostname = "jenkinsmaster";
         String propfilename = null;
         if ((hostname).equals("W17044768")){ propfilename="prod.properties";}
-        if ((hostname).equals("devl")){ propfilename="devl.properties";}
+        if ((hostname).equals("jenkinsmaster")){ propfilename="devl.properties";}
         if ((hostname).equals("qual")){ propfilename="qual.properties";}
-        fs= new FileInputStream(System.getProperty("user.dir")+"\\workspace\\j2eeapp\\j2eemavenapp\\"+propfilename);
+        fs= new FileInputStream("/opt/packages/tcwarpropfiles/"+propfilename);
         //fs= new FileInputStream(System.getProperty("user.dir")+"\\"+propfilename);
 		property = new Properties();
 		property.load(fs);
