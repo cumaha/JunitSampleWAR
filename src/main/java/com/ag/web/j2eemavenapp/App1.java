@@ -21,7 +21,7 @@ public class App1 {
 		InetAddress ips;
 		ips = InetAddress.getLocalHost();
         String hostname = ips.getHostName();
-        hostname = "jenkinsmaster";
+        //hostname = "jenkinsmaster";
         String propfilename = null;
         if ((hostname).equals("W17044768")){ propfilename="prod.properties";}
         if ((hostname).equals("prodtc01.akslab.com")){ propfilename="prod.properties";}
