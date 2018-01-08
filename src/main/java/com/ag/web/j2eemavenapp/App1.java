@@ -24,6 +24,7 @@ public class App1 {
         hostname = "jenkinsmaster";
         String propfilename = null;
         if ((hostname).equals("W17044768")){ propfilename="prod.properties";}
+        if ((hostname).equals("prodtc01.akslab.com")){ propfilename="prod.properties";}
         if ((hostname).equals("jenkinsmaster")){ propfilename="devl.properties";}
         if ((hostname).equals("qual")){ propfilename="qual.properties";}
         fs= new FileInputStream("/opt/packages/tcwarpropfiles/"+propfilename);
