@@ -19,6 +19,12 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+    
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-server</artifactId>
+      <version>3.8.1</version>
+    </dependency>
   </dependencies>
   <groupId>com.ag.web</groupId>
   <version>0.01</version>
